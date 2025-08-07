@@ -1,0 +1,29 @@
+# services.ymal
+
+refresh_tasks:
+  name: Refresh Tasks
+  description: Manually pull latest task data from Google Sheets and update Home Assistant entities.
+
+set_task_completed:
+  name: Complete Task
+  description: Marks a specific task as completed in the Google Sheet, updates the last completed date, logs the action, and hides the button.
+  fields:
+    task_name:
+      name: Task Name
+      description: The name of the task to mark as completed.
+      example: "Take out the trash"
+      required: true
+      selector:
+        text:
+
+set_task_incomplete:
+  name: Uncomplete Task
+  description: Returns a task to an uncompleted state and makes it visible again.
+  fields:
+    task_name:
+      name: Task Name
+      description: The name of the task to mark as incomplete.
+      example: "Take out the trash"
+      required: true
+      selector:
+        text:

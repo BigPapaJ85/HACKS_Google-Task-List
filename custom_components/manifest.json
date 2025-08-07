@@ -1,0 +1,10 @@
+{
+  "domain": "google_task_list",
+  "name": "Google Task List",
+  "version": "1.0.0",
+  "config_flow": true,
+  "documentation": "https://your-link-or-none.com",
+  "dependencies": [],
+  "codeowners": ["@yourgithub"],
+  "requirements": ["gspread", "google-auth","croniter"]
+}

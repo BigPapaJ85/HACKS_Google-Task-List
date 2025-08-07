@@ -1,0 +1,9 @@
+{
+  "name": "Google Task List",
+  "content_in_root": false,
+  "domain": "google_task_list",
+  "country": "US",
+  "homeassistant": "2023.0.0",
+  "codeowners": ["@yourgithub"],
+  "documentation": "https://your-link-or-none.com"
+}
